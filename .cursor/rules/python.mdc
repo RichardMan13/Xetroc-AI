@@ -12,6 +12,7 @@ Always adhere to PEP 8. Use an auto-formatter like `Black` or `Ruff` to enforce 
 
 *   **Indentation**: Use 4 spaces. Never tabs.
 *   **Line Length**: Limit lines to 88 characters. Docstrings and comments should ideally wrap at 72 characters.
+*   **Emojis**: **Never use emojis in the code.** This includes variable names, strings, comments, and docstrings. Use only standard ASCII/UTF-8 text for maximum compatibility and professionalism.
 *   **Blank Lines**:
     *   Two blank lines between top-level functions and classes.
     *   One blank line between methods within a class.

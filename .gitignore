@@ -188,17 +188,18 @@ cython_debug/
 #  you could uncomment the following to ignore the entire vscode folder
 # .vscode/
 
-# Ruff stuff:
-.ruff_cache/
+# Xetroc-AI Specific
+data/
+reports/
+artifacts/
+mlflow.db
+*.log
+*.sqlite
+.gemini/
+.idea/
+.vscode/
+.DS_Store
 
-# PyPI configuration file
-.pypirc
-
-# Cursor
-.cursor/*
-!.cursor/rules/
-
-# marimo
-marimo/_static/
-marimo/_lsp/
-__marimo__/
+# Ignorar resultados do monitoring (exceto se quiser versionar o HTML final)
+reports/*.html
+reports/*.json

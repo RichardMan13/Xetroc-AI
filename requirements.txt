@@ -1,0 +1,32 @@
+# --- Core & Orchestration ---
+langchain
+langchain-openai
+langchain-text-splitters
+langgraph
+prefect
+
+# --- IA & Embeddings ---
+openai
+sentence-transformers
+qdrant-client
+fastembed
+
+# --- Database (PostgreSQL) ---
+psycopg2-binary
+sqlalchemy
+
+# --- Data Processing ---
+pymupdf
+unstructured[local-inference]
+pandas
+pyarrow
+tabulate
+
+# --- UI & Utils ---
+streamlit
+python-dotenv
+pydantic
+
+# --- MLOps & Observability ---
+mlflow
+evidently
